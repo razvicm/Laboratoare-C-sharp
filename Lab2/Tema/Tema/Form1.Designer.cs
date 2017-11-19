@@ -53,11 +53,13 @@
             this.inchide = new System.Windows.Forms.Button();
             this.punctaj = new System.Windows.Forms.Label();
             this.rezultat = new System.Windows.Forms.Label();
+            this.pb1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -335,12 +337,21 @@
             this.rezultat.Size = new System.Drawing.Size(0, 20);
             this.rezultat.TabIndex = 11;
             // 
+            // pb1
+            // 
+            this.pb1.Location = new System.Drawing.Point(25, 285);
+            this.pb1.Name = "pb1";
+            this.pb1.Size = new System.Drawing.Size(530, 346);
+            this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb1.TabIndex = 12;
+            this.pb1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(684, 592);
+            this.ClientSize = new System.Drawing.Size(653, 733);
             this.Controls.Add(this.rezultat);
             this.Controls.Add(this.punctaj);
             this.Controls.Add(this.inchide);
@@ -351,6 +362,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.pb1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.groupBox1.ResumeLayout(false);
@@ -363,6 +375,7 @@
             this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -395,6 +408,7 @@
         private System.Windows.Forms.Button inchide;
         private System.Windows.Forms.Label punctaj;
         private System.Windows.Forms.Label rezultat;
+        private System.Windows.Forms.PictureBox pb1;
     }
 }
 

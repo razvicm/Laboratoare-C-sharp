@@ -32,10 +32,7 @@ namespace Tema
             if (r4.Checked)
                 total [1]= 3;
             else if (r5.Checked)
-            {
                 total [1]= 2;
-                Console.WriteLine(total);
-            }
             else if (r6.Checked)
                 total [1]= 1;
 
@@ -67,6 +64,12 @@ namespace Tema
                 rezultat.Text = "  La prima vedere lasi impresia unei persoane foarte echilibrate.";
             if (total.Sum() > 11)
                 rezultat.Text = " Primul lucru care se observa la tine este siguranta de care dai dovada in actiunile tale.";
+           
+            
+            // scripturi necesare pentru actualizare formular
+            pb1.Load("https://goo.gl/3MQqvv");
+            pb1.BringToFront();
+
         }
 
         private void inchide_Click(object sender, EventArgs e)
