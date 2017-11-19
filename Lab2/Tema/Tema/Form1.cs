@@ -58,8 +58,9 @@ namespace Tema
                 total [4]= 2;
             else if (r15.Checked)
                 total [4]= 3;
-            //punctaj.Text = ("Ai obtinut {0}",total +" puncte");
-            punctaj.Text = ("Ai obtinut "+ total.Sum() + " puncte");
+            
+            string punct = (total.Sum() == 1) ? " punct" : " puncte";
+            punctaj.Text = ("Ai obtinut "+ total.Sum() + punct);
             if(total.Sum()<9)
             rezultat.Text = " Lasi impresia unei persoane care se adapteaza foarte usor unor situatii noi.";
             else if (total.Sum() >= 9)
