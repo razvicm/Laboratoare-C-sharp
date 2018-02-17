@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web_service_test", "web_service_test\web_service_test.csproj", "{FE5D996E-017E-4E2E-B8FF-D857BA6F54E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myFirstClient", "..\myFirstClient\myFirstClient\myFirstClient.csproj", "{C6580FF1-4265-4103-B279-BC78F9656564}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FE5D996E-017E-4E2E-B8FF-D857BA6F54E2} = {FE5D996E-017E-4E2E-B8FF-D857BA6F54E2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE5D996E-017E-4E2E-B8FF-D857BA6F54E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5D996E-017E-4E2E-B8FF-D857BA6F54E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5D996E-017E-4E2E-B8FF-D857BA6F54E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5D996E-017E-4E2E-B8FF-D857BA6F54E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6580FF1-4265-4103-B279-BC78F9656564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6580FF1-4265-4103-B279-BC78F9656564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6580FF1-4265-4103-B279-BC78F9656564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6580FF1-4265-4103-B279-BC78F9656564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9189448D-6490-4A33-9322-3F8657850EB7}
+	EndGlobalSection
+EndGlobal
